@@ -6,6 +6,9 @@ I have used the variable first10 , to strore data for simplicity
 I have used numpy functions like arrange , shape and dtype in the code to fecth expected outputs.
 np.arange(start, stop) generates numbers from start up to (but not including) stop
 
+.............................................................................................................
+.............................................................................................................
+.............................................................................................................
 
 Activity 3 : 13-04-25_Activity3.PY:  My undersatnding,
 
