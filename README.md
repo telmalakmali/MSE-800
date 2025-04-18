@@ -1,4 +1,4 @@
-Activity 1 : 13-04-25_Activity1.PY : My undersatnding,
+Activity 1 : 13-04-25_Activity1.PY : My understanding,
 
 Numpy is a library with in built predefined functions. 
 throughout the code I will refer  the numpy library as np
@@ -10,7 +10,7 @@ np.arange(start, stop) generates numbers from start up to (but not including) st
 
 .............................................................................................................
 
-Activity 3 : 13-04-25_Activity3.PY:  My undersatnding,
+Activity 3 : 13-04-25_Activity3.PY:  My understanding,
 
 Numpy is a library with in built predefined functions. 
 throughout the code I will refer  the numpy library as np
