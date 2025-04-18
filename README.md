@@ -1,4 +1,5 @@
-Activity 1 : My undersatnding 
+Activity 1 : 13-04-25_Activity1.PY : My undersatnding,
+
 Numpy is a library with in built predefined functions. 
 throughout the code I will refer  the numpy library as np
 I have used the variable first10 , to strore data for simplicity 
@@ -6,7 +7,8 @@ I have used numpy functions like arrange , shape and dtype in the code to fecth 
 np.arange(start, stop) generates numbers from start up to (but not including) stop
 
 
-Activity 3 : My undersatnding 
+Activity 3 : 13-04-25_Activity3.PY:  My undersatnding,
+
 Numpy is a library with in built predefined functions. 
 throughout the code I will refer  the numpy library as np
 here I have used the variable temperatures and stores an array given values in this variable
