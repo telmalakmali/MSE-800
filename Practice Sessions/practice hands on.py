@@ -16,7 +16,6 @@ area (x,y)
     
 
 #Activity2: Write a function to calculate factorial X
-#5*4*3*2*1
 A=5
 def fac(A):
        if A == 1 or A == 0:
