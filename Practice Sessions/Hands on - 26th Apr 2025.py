@@ -26,3 +26,4 @@ def fac(A):
             print("Return value is", fac_cal)
             return fac_cal
 fac(A)
+# !! Issue faced in the above code for activity 2 is that it returns multiple values. Need to fix the code to only return the final value
