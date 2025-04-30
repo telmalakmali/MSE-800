@@ -1,0 +1,38 @@
+#class Fac:
+# def fac(A):
+# if A == 1 or A == 0:
+# print("Return value for fac is", A)
+# return A
+# else:
+# fac_cal = A * Fac.fac(A - 1)  
+# print("Return value is", fac_cal)
+# return fac_cal
+#Fac.fac(5)  # This will provide  the factorial of 5
+
+#Develop a project to get a number from end user to calculate the factorial and checking prime using classes.
+import math
+class Fac:
+    #A=5
+    def fac(A):
+        if A == 1 or A == 0:
+            #print("Return value for fac is", A)
+            return A
+        else:
+            fac_cal = A * Fac.fac(A - 1)  
+            #print("Return value is", fac_cal)
+            return fac_cal
+    def prime(PrintFac):
+        if PrintFac <= 1:
+            return False
+        for i in range(2, int(math.sqrt(PrintFac)) + 1):
+            if PrintFac % i == 0:
+                return False
+            else:
+                return True
+PrintFac = Fac.fac(5)  # This will provide  the factorial of 5
+print("Return value is",PrintFac)
+
+if Fac.prime(PrintFac):
+    print("It is a prime number")
+else:
+    print("It is NOT a prime number")
