@@ -24,8 +24,15 @@ print ("test fruit YY is",YY[0])
 print ("test fruit YY COLOR IS is",YY[1])
 """
 
-X= "first Function"
+class vehicle:
+    def __init__(self,make,color):
+        self.make = make
+        self.colo = color
+    
+    def input (self):
+        make = input("Enter value for make")
+        color= input ("Enter value for color")
+        print("color is",self.color," and make is ", self.make)
 
-def first_Func():
-    print("value which is defined outside the function is",X)
-first_Func()
+Mazda = vehicle()
+Mazda.input()
